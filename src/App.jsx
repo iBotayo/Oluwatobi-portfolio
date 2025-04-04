@@ -1,9 +1,11 @@
 import React from 'react';
-import HamburgerMenu from './components/HamburgerMenu';
 import './App.css'
+
+import HamburgerMenu from './components/HamburgerMenu';
 import HeroSection from './components/HeroSection';
 import AboutSection from './components/AboutSection';
 import ProjectsSection from './components/ProjectsSection';
+import ContactSection from './components/ContactSection';
 
 const App = () => {
   return (
@@ -17,12 +19,12 @@ const App = () => {
 
           <HamburgerMenu />
         </header>
-      
-      
+
       
       <HeroSection />
       <AboutSection />
       <ProjectsSection />
+      <ContactSection />
     </>
   )
 }
