@@ -48,7 +48,7 @@ const AboutSection = () => {
         </div>
 
         <div className="skills">
-          <h4>Skills</h4>
+          <h4>My Skills</h4>
           <ul>
             {skills.map((skill, index) => (
               <li key={index}>

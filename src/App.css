@@ -2,6 +2,7 @@
   --light--: #cf7ce6;
   --dark--: #25182a;
   --grey--: #eaeaea;
+  --white--: #ffffff;
 }
 
 .navBar {
@@ -27,6 +28,7 @@
 .header h2 {
   font-weight: 900;
   font-size: 16px;
+  color: var(--white--);
 }
 
 .header img {
