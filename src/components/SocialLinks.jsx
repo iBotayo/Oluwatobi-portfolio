@@ -16,7 +16,7 @@ const SocialLinks = ({
 }) => {
   const socialMedia = [
     { name: 'GitHub', url: 'https://github.com/ibotayo', icon: faGithub },
-    { name: 'LinkedIn', url: 'https://linkedin.com', icon: faLinkedin },
+    { name: 'LinkedIn', url: 'https://www.linkedin.com/in/oluwatobi-omitogun-0802981b1/', icon: faLinkedin },
     { name: 'Twitter', url: 'https://twitter.com/O_ibot', icon: faTwitter },
     { name: 'Instagram', url: 'https://instagram.com', icon: faInstagram },
   ];
@@ -43,8 +43,6 @@ const SocialLinks = ({
               fontSize: iconSize,
               transition: 'all 0.3s ease',
               ...hoverStyle,
-              background: 'green',
-              padding: '0px 5px'
             }}
           >
             <FontAwesomeIcon icon={social.icon} />

@@ -1,0 +1,43 @@
+.footer {
+  background: var(--dark--);
+  color: var(--grey--);
+  padding: 60px 13px;
+  padding-bottom: 20px;
+}
+
+.footer-note {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-bottom: 60px;
+}
+
+.socials, .footer-info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.footer-note p {
+  font-size: 12px;
+}
+
+.horizontal-line {
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: var(--light--);
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.copyright {
+  display: block;
+  margin-top: 30px;
+  justify-self: center;
+  font-size: 10px;
+}
+
+.copyright a {
+  color: var(--grey--);
+}
