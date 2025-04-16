@@ -1,5 +1,6 @@
 import React from 'react';
-import './App.css'
+import './App.css';
+import Dp1 from '/src/assets/Dp1.jpg'
 
 import HamburgerMenu from './components/HamburgerMenu';
 import HeroSection from './components/HeroSection';
@@ -14,7 +15,7 @@ const App = () => {
        
         <header className="navBar" id='navbar'>
           <a href="#home" className='header'>
-          <img src="/src/assets/Dp1.jpg" alt="Profile Image" />
+          <img src={Dp1} alt="Profile Image" />
           <h2>OLUWATOBI O.</h2>
           </a>
 
