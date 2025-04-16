@@ -19,16 +19,24 @@ const HamBurgerMenu = () => {
 
         <ul className={`menu ${isOpen ? 'show' : ''}`}>
           <li>
-            <a href="#home">Home</a>
+            <a href="#home" onClick={() => setIsOpen(false)}>
+              HOME
+            </a>
           </li>
           <li>
-            <a href="#about">About</a>
+            <a href="#about" onClick={() => setIsOpen(false)}>
+              ABOUT
+            </a>
           </li>
           <li>
-            <a href="#projects">Project</a>
+            <a href="#projects" onClick={() => setIsOpen(false)}>
+              PROJECTS
+            </a>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <a href="#contact" onClick={() => setIsOpen(false)}>
+              CONTACT
+            </a>
           </li>
         </ul>
       </nav>

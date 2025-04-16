@@ -27,15 +27,17 @@
 
 .contact-text {
   font-size: 15px;
+  padding: 0 10px;
   padding-bottom: 40px;
 }
 
 .contact-form {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 2rem;
   background-color: var(--white--);
-  max-width: 400px;
+  max-width: 700px;
+  width: 90%;
   margin: 1rem auto;
   padding: 1.5rem;
   border: 1px solid #ddd;
@@ -63,14 +65,15 @@
 }
 
 .form-textarea {
-  min-height: 120px;
+  min-height: 200px;
   resize: vertical;
 }
 
 .form-button {
   background-color: var(--light--);
   color: white;
-  padding: 0.75rem;
+  padding: 0.9rem;
+  width: 200px;
   border: none;
   border-radius: 0.5rem;
   font-size: 1rem;
@@ -98,4 +101,26 @@
 }
 .Toastify__progress-bar {
   background-color: var(--dark--) !important;
+}
+
+/* Tablet screen */
+@media screen and (min-width: 768px) {
+  .contact-text {
+    padding: 0 10%;
+    padding-bottom: 40px;
+  }
+  .form-input {
+    height: 4rem;
+    /* font-size: 1rem; */
+  }
+}
+
+/* Desktop screen */
+@media screen and (min-width: 900px) {
+  .project-list ul li {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+  }
 }

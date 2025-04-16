@@ -1,7 +1,7 @@
 .footer {
   background: var(--dark--);
   color: var(--grey--);
-  padding: 60px 13px;
+  padding: 60px 5%;
   padding-bottom: 20px;
 }
 
@@ -29,15 +29,36 @@
   background-color: var(--light--);
   margin: 10px 0;
   border-radius: 5px;
+  margin-bottom: 30px;
 }
 
 .copyright {
   display: block;
-  margin-top: 30px;
+  margin: 15px;
   justify-self: center;
   font-size: 10px;
 }
 
 .copyright a {
   color: var(--grey--);
+}
+
+/* Tablet screen */
+@media screen and (min-width: 768px) {
+  .footer-note {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 0;
+  }
+  .footer-note .socials {
+    order: 2;
+  }
+  .footer-info {
+    order: 1;
+    width: 40%;
+  }
+}
+
+/* Desktop screen */
+@media screen and (min-width: 900px) {
 }

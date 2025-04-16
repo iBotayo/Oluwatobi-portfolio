@@ -5,6 +5,7 @@ import {
   faTwitter,
   faInstagram,
   faLinkedin,
+  faWhatsapp
 } from '@fortawesome/free-brands-svg-icons';
 
 const SocialLinks = ({
@@ -19,6 +20,7 @@ const SocialLinks = ({
     { name: 'LinkedIn', url: 'https://www.linkedin.com/in/oluwatobi-omitogun-0802981b1/', icon: faLinkedin },
     { name: 'Twitter', url: 'https://twitter.com/O_ibot', icon: faTwitter },
     { name: 'Instagram', url: 'https://instagram.com', icon: faInstagram },
+    { name: 'WhatsApp', url: 'https://wa.link/x0tym3', icon: faWhatsapp },
   ];
 
   return (

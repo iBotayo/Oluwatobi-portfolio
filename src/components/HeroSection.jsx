@@ -17,7 +17,7 @@ const HeroSection = () => {
             backGround: 'green',
           }}
           hoverStyle={{
-            ':hover': { backGround: '#b67c5f', transform: 'scale(1.2)' },
+            ':hover': { color: '#cf7ce6', transform: 'scale(1.2)' },
           }}
         />
       </div>

@@ -5,6 +5,10 @@
   --white--: #ffffff;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .navBar {
   display: flex;
   justify-content: space-between;
@@ -45,4 +49,18 @@ h3 {
   text-align: center;
   font-size: 2rem;
   font-weight: 600;
+}
+
+/* Tablet screen */
+@media screen and (min-width: 768px) {
+  .navBar {
+    padding: 20px 45px
+  }
+  .header h2 {
+    font-size: 20px;
+  }
+  
+  .header img {
+    width: 35px;
+  }
 }

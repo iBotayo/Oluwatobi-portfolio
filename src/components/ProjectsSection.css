@@ -62,5 +62,20 @@
 }
 
 .project-list .details .buttons Button {
-  margin: 10px 0;
+  margin: 10px 10px;
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+  
+}
+
+/* Desktop screen */
+@media screen and (min-width: 900px) {
+  .project-list ul li {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+  }
 }

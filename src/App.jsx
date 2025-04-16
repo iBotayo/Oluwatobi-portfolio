@@ -13,9 +13,9 @@ const App = () => {
     <>
        
         <header className="navBar" id='navbar'>
-          <a href="#navbar" className='header'>
+          <a href="#home" className='header'>
           <img src="/src/assets/Dp1.jpg" alt="Profile Image" />
-          <h2>Oluwatobi O.</h2>
+          <h2>OLUWATOBI O.</h2>
           </a>
 
           <HamburgerMenu />

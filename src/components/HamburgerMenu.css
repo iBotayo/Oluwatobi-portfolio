@@ -69,7 +69,7 @@
     transform: rotate(-45deg) translate(5px, -5px);
 }
 
-/* Tablet & Desktop (Expand Navigation) */
+/* Tablet (Expand Navigation) */
 @media screen and (min-width: 768px) {
     .menu {
         display: flex;
@@ -95,9 +95,17 @@
 
     .menu a {
         padding: 10px 15px;
+        font-size: 15px;
     }
 
     .menu-icon {
         display: none; /* Hide hamburger icon on larger screens */
+    }
+}
+
+/* Desktop screen */
+@media screen and (min-width: 900px) {
+    .menu a {
+        font-size: 18px;
     }
 }

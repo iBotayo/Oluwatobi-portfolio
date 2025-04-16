@@ -2,7 +2,7 @@ import React from 'react';
 import './ProjectsSection.css';
 import Button from './Button';
 
-import dp1 from '../assets/Dp1.jpg';
+import portfolio from '../assets/Portfolio.png';
 import cettemovieImg from '../assets/cettemovie-img.png';
 import socialLinksImg from '../assets/socialLinks-img.png';
 
@@ -10,7 +10,7 @@ const ProjectsSection = () => {
   const projects = [
     {
       name: 'Portfolio Site',
-      image: dp1,
+      image: portfolio,
       description:
         'I created this portfolio website, using ReactJs, for my personal online visibility.',
       githubRepo: 'https://github.com/iBotayo/Oluwatobi-portfolio',
@@ -40,7 +40,7 @@ const ProjectsSection = () => {
           PROJECTS <br /> <span className="underline"></span>
         </h3>
         <p className="project-text">
-          Here you will find some of the persona projects that I created{' '}
+          Here you will find some of the personal projects that I created{' '}
         </p>
       </div>
 
@@ -57,8 +57,8 @@ const ProjectsSection = () => {
                 <h4 className="project-name">{project.name}</h4>
                 <p className="project-desc">{project.description}</p>
                 <div className="buttons">
-                  <Button name="GitHub" link={project.githubRepo} />
-                  <Button name="Live Demo" link={project.liveSite} />
+                  <Button name="GitHub" link={project.githubRepo} target='_blank' />
+                  <Button name="Live Demo" link={project.liveSite} target='_blank' />
                 </div>
               </div>
             </li>
