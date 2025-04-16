@@ -1,5 +1,5 @@
 .projects {
-  padding: 70px 15px;
+  padding: 80px 15px;
   text-align: center;
   background: var();
 }
@@ -67,11 +67,16 @@
 
 /* Tablet */
 @media screen and (min-width: 768px) {
-  
+  .projects {
+    padding: 90px 15px;
+  }
 }
 
 /* Desktop screen */
 @media screen and (min-width: 900px) {
+  .projects {
+    padding: 95px 15px;
+  }
   .project-list ul li {
     display: grid;
     grid-template-columns: 1fr 1fr;
