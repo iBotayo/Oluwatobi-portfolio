@@ -9,6 +9,14 @@ import socialLinksImg from '../assets/socialLinks-img.png';
 const ProjectsSection = () => {
   const projects = [
     {
+      name: 'NGO Webiste',
+      image: NGO - Website,
+      description:
+        'The NGO website was developed to strengthen EGO Initiative’s digital presence by showcasing its programs, impact, events, and team while enabling stakeholder engagement. Built with Next.js, TypeScript, Tailwind CSS, Shadcn UI, Sanity CMS, Formspree, and Vercel, the platform provides a modern, scalable, secure, and easy-to-manage solution for content publishing and community outreach.',
+      githubRepo: 'https://github.com/iBotayo/ego-initiative-website',
+      liveSite: 'https://egoinitiative.org.ng',
+    },
+    {
       name: 'Portfolio Site',
       image: portfolio,
       description:
